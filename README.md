@@ -1,2 +1,3 @@
 # SolarseaEngine
-基于OpenGL和Qt的以2D为主的游戏1引擎
+基于OpenGL和Qt的以2D为主的游戏引擎
+目前还是一个非常早期的版本
