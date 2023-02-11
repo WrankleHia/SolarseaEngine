@@ -1,6 +1,5 @@
 #include "se_openglwindow.h"
-#include <QDebug>
-#include <iostream>
+#include <solarapi>
 using namespace std;
 
 
@@ -31,6 +30,9 @@ const char *fragmentShaderSource = "#version 330 core\n"
 void SE_OpenGLWindow::initializeGL()
 {
     initializeOpenGLFunctions();
+
+        objectCount(3);
+
         glGenVertexArrays(1, &VAO);
         glGenBuffers(1, &VBO);
         glBindVertexArray(VAO);

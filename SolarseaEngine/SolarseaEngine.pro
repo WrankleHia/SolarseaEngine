@@ -15,6 +15,7 @@ SOURCES += \
     se_openglwindow.cpp
 
 HEADERS += \
+    SolarAPI \
     se_debugoutput.h \
     se_mainwindow.h \
     se_openglwindow.h

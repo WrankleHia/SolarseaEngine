@@ -1,0 +1,15 @@
+#ifndef SOLARAPI_H
+#define SOLARAPI_H
+
+#endif
+#include <iostream>
+
+using namespace std;
+
+int objectCount(int);
+
+int objectCount(int obc){
+
+        cout << "objectCount now is " << obc << "." << endl;
+
+}
